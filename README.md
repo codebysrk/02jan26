@@ -19,12 +19,13 @@ Experience the passion of food with **Rastro**. A modern, responsive restaurant 
 - **Responsive Layout**: Fully responsive design optimized for mobile, tablet, and desktop.
 - **Interactive Elements**: Hover effects, scroll animations (Intersection Observer), and a smooth mobile menu.
 - **Fast Performance**: Optimized for speed with lightweight assets and smooth transitions.
-- **Localized Content**: Currency tailored for Indian customers (INR).
+- **Localized Experience**: Tailored for the Indian market with authentic menu items (Hyderabadi Biryani, Idli Sambar) and localized content.
+- **Performance Optimized**: Implements lazy loading for images, LCP preloading, and minified CSS assets.
 
 ## 🛠️ Tech Stack
 
 - **HTML5**: Semantic structure and modern tags.
-- **Tailwind CSS**: Utility-first styling for rapid and responsive UI development.
+- **Tailwind CSS**: Utility-first styling with a custom configuration and minified build output.
 - **Vanilla JavaScript**: Lightweight logic for mobile menu toggling and scroll animations.
 - **Font Awesome**: Scalable vector icons for visual cues.
 - **Google Fonts**: 'Playfair Display' for elegant headings and 'Lato' for readable body text.
@@ -34,11 +35,15 @@ Experience the passion of food with **Rastro**. A modern, responsive restaurant 
 ```bash
 Rastro/
 ├── assets/
-│   ├── food.png
-│   └── file.excalidraw
-├── index.html       # Main application file
-├── style.css        # (Optional) Custom styles
-└── README.md        # Project documentation
+│   ├── biryani.png      # Optimized hero image
+│   ├── hero-preview.png
+│   └── full-preview.png
+├── src/
+│   └── input.css        # Tailwind source CSS
+├── index.html           # Main application file
+├── style.css            # Compiled & Minified CSS
+├── tailwind.config.js   # Tailwind configuration
+└── README.md            # Project documentation
 ```
 
 ## 🚀 Installation
