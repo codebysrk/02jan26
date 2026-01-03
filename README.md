@@ -2,7 +2,16 @@
 
 Experience the passion of food with **Rastro**. A modern, responsive restaurant website featuring a premium design, glassmorphism aesthetics, interactive elements, and a smooth user experience. Tailored for a high-end dining audience in India.
 
-> **Note:** A website screenshot will be added here soon.
+## 📸 Preview
+
+![Hero Section](assets/hero-preview.png)
+
+<details>
+<summary><strong>View Full Page Screenshot</strong></summary>
+
+![Full Screenshot](assets/full-preview.png)
+
+</details>
 
 ## ✨ Features
 
