@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom Styles & Utilities */
+body {
+  background-color: #fffbf2; /* Very soft cream */
+  color: #1c1917;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #fff7ed;
+}
+::-webkit-scrollbar-thumb {
+  background: #ea580c;
+  border-radius: 5px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #c2410c;
+}
+
+/* Glassmorphism */
+/* Note: Tailwind handles most of this, but keeping custom class for specific effect if needed. 
+   Ideally, these should be @layer components but keeping as is for now to minimize breakage. */
+.glass {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.glass-card {
+  background: rgba(255, 255, 255, 0.7);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(234, 88, 12, 0.1);
+  transition: all 0.4s ease;
+}
+
+.glass-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px -5px rgba(234, 88, 12, 0.15);
+  border-color: rgba(234, 88, 12, 0.3);
+  background: rgba(255, 255, 255, 0.95);
+}
+
+/* Text Gradients */
+.text-gradient {
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-image: linear-gradient(to right, #ea580c, #ca8a04);
+}
+
+/* Scroll Animation Classes */
+.reveal-on-scroll {
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s cubic-bezier(0.5, 0, 0, 1);
+}
+
+.reveal-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Blob Background */
+.blob-bg {
+  position: absolute;
+  width: 150%;
+  height: 150%;
+  top: -25%;
+  left: -25%;
+  background: radial-gradient(circle at center, #ffedd5 0%, transparent 70%);
+  z-index: -1;
+  opacity: 0.6;
+}

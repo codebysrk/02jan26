@@ -1,0 +1,24 @@
+{
+  "name": "rastro",
+  "version": "1.0.0",
+  "description": "Experience the passion of food with **Rastro**. A modern, responsive restaurant website featuring a premium design, glassmorphism aesthetics, interactive elements, and a smooth user experience. Tailored for a high-end dining audience in India.",
+  "main": "script.js",
+  "scripts": {
+    "build": "tailwindcss -i ./src/input.css -o ./style.css",
+    "watch": "tailwindcss -i ./src/input.css -o ./style.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codebysrk/Rastro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codebysrk/Rastro/issues"
+  },
+  "homepage": "https://github.com/codebysrk/Rastro#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
