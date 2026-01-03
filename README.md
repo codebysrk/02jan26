@@ -5,13 +5,7 @@ Experience the passion of food with **Rastro**. A modern, responsive restaurant 
 ## 📸 Preview
 
 ![Hero Section](assets/hero-preview.png)
-
-<details>
-<summary><strong>View Full Page Screenshot</strong></summary>
-
 ![Full Screenshot](assets/full-preview.png)
-
-</details>
 
 ## ✨ Features
 
@@ -52,18 +46,6 @@ Rastro/
     cd Rastro
     ```
 3.  Open `index.html` in your web browser.
-
-## 💡 Recent Updates
-
-- **Currency Localization**: Updated all pricing from USD ($) to INR (₹) to better suit the target demographic.
-- **Address & Contact**: Updated contact details to a representative Indian address and phone format.
-
-## 🚧 Potential Improvements
-
-- **SEO Optimization**: Add `<meta>` tags for description and keywords to improve search engine visibility.
-- **Performance**: Move from Tailwind CDN to a build process (CLI) for production to reduce file size and improve load times.
-- **Accessibility (a11y)**: Ensure all interactive elements have `aria-labels` and sufficient color contrast.
-- **Dynamic Content**: Integrate a backend or simple JSON data key to load menu items dynamically instead of hardcoding.
 
 ## License
 
