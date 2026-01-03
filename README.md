@@ -5,7 +5,13 @@ Experience the passion of food with **Rastro**. A modern, responsive restaurant 
 ## 📸 Preview
 
 ![Hero Section](assets/hero-preview.png)
+
+<details>
+<summary><strong>View Full Page Screenshot</strong></summary>
+
 ![Full Screenshot](assets/full-preview.png)
+
+</details>
 
 ## ✨ Features
 
